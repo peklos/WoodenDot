@@ -1,69 +1,69 @@
-# 🪵 Woodendot - Adaptive Furniture Landing Page
+# 🪵 Woodendot - Адаптивный лендинг мебельного магазина
 
-> Modern, responsive landing page for furniture e-commerce crafted from Figma design with pure HTML, CSS, and JavaScript.
+> Современный, отзывчивый лендинг для интернет-магазина мебели, сверстанный по дизайну из Figma на чистом HTML, CSS и JavaScript.
 
-![Woodendot](https://img.shields.io/badge/Design-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Woodendot](https://img.shields.io/badge/Дизайн-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=flat-square)
+![Адаптивная](https://img.shields.io/badge/Адаптивная-Да-success?style=flat-square)
 
-## 📋 Project Overview
+## 📋 Обзор проекта
 
-A pixel-perfect, fully responsive landing page for **Woodendot** - a premium furniture brand. This project showcases modern web development practices with clean, maintainable code and smooth user experience.
+Пиксель-перфектный, полностью адаптивный лендинг для **Woodendot** - премиального бренда мебели. Проект демонстрирует современные практики веб-разработки с чистым, поддерживаемым кодом и плавным пользовательским опытом.
 
-**Design Source:** Figma
-**Framework:** None (Pure Vanilla Stack)
-**Contact:** [@swslt1616](https://t.me/swslt1616)
-
----
-
-## ✨ Features
-
-### 🎨 Design & Layout
-- **Pixel-perfect implementation** from Figma design
-- **Fully responsive** layout (mobile-first approach)
-- **Custom CSS Grid & Flexbox** layouts
-- **No CSS frameworks** (Bootstrap, Tailwind) - pure custom CSS
-- **Smooth animations** and transitions
-- **Modern typography** (Cardo, Roboto, Montserrat)
-
-### 🚀 Technical Features
-- **Vanilla JavaScript** - no jQuery or heavy frameworks
-- **Intersection Observer API** for scroll animations and lazy loading
-- **CSS Custom Properties** for maintainability
-- **Semantic HTML5** markup
-- **SEO-friendly** structure
-- **Accessibility considerations** (ARIA labels, keyboard navigation)
-
-### 🎯 Interactive Elements
-- Sticky navigation with scroll effects
-- Hero section with CTA button
-- Product showcase with hover effects
-- Instagram gallery integration
-- Testimonials carousel
-- Newsletter subscription form
-- Scroll-to-top button
-- Mobile-friendly hamburger menu
-
-### 📱 Responsive Breakpoints
-- **Desktop:** 1440px+ (large screens)
-- **Laptop:** 1024px - 1440px
-- **Tablet:** 768px - 1024px
-- **Mobile:** 375px - 767px
-- **Small Mobile:** < 375px
+**Источник дизайна:** Figma
+**Фреймворк:** Нет (чистый Vanilla стек)
+**Контакт:** [@swslt1616](https://t.me/swslt1616)
 
 ---
 
-## 🗂️ Project Structure
+## ✨ Возможности
+
+### 🎨 Дизайн и вёрстка
+- **Пиксель-перфектная реализация** по макету из Figma
+- **Полностью адаптивная** вёрстка (mobile-first подход)
+- **Кастомные CSS Grid и Flexbox** раскладки
+- **Без CSS-фреймворков** (Bootstrap, Tailwind) - только чистый CSS
+- **Плавные анимации** и переходы
+- **Современная типографика** (Cardo, Roboto, Montserrat)
+
+### 🚀 Технические особенности
+- **Vanilla JavaScript** - без jQuery и тяжелых фреймворков
+- **Intersection Observer API** для анимаций при скролле и ленивой загрузки
+- **CSS Custom Properties** для удобства поддержки
+- **Семантическая HTML5** разметка
+- **SEO-дружественная** структура
+- **Учёт доступности** (ARIA метки, клавиатурная навигация)
+
+### 🎯 Интерактивные элементы
+- Липкая навигация с эффектами при скролле
+- Героическая секция с CTA кнопкой
+- Витрина товаров с hover-эффектами
+- Интеграция галереи Instagram
+- Карусель отзывов
+- Форма подписки на рассылку
+- Кнопка прокрутки вверх
+- Мобильное гамбургер-меню
+
+### 📱 Адаптивные брейкпоинты
+- **Десктоп:** 1440px+ (большие экраны)
+- **Ноутбук:** 1024px - 1440px
+- **Планшет:** 768px - 1024px
+- **Мобильный:** 375px - 767px
+- **Малый мобильный:** < 375px
+
+---
+
+## 🗂️ Структура проекта
 
 ```
 WoodenDot/
 │
-├── index.html          # Main HTML file
-├── styles.css          # All styles with responsive media queries
-├── script.js           # JavaScript functionality
-├── images/             # Local image assets
+├── index.html          # Основной HTML файл
+├── styles.css          # Все стили с адаптивными медиа-запросами
+├── script.js           # JavaScript функциональность
+├── images/             # Локальные изображения
 │   ├── living-room.webp
 │   ├── home-office.webp
 │   ├── dining-room.webp
@@ -71,126 +71,126 @@ WoodenDot/
 │   ├── alada-desk.webp
 │   └── instagram-1.webp
 │
-└── README.md           # Project documentation
+└── README.md           # Документация проекта
 ```
 
 ---
 
-## 🎨 Page Sections
+## 🎨 Секции страницы
 
-### 1. **Announcement Bar**
-Top banner with promotional messaging (free shipping, returns policy)
+### 1. **Анонсная панель**
+Верхний баннер с промо-сообщениями (бесплатная доставка, политика возвратов)
 
-### 2. **Navigation Header**
-- Sticky header with logo-centered layout
-- Left navigation: Wooden Furniture, About, Stories
-- Right navigation: Search, Account, Cart
-- Mobile hamburger menu for responsive design
+### 2. **Шапка навигации**
+- Липкая шапка с логотипом по центру
+- Левая навигация: Деревянная мебель, О нас, Истории
+- Правая навигация: Поиск, Аккаунт, Корзина
+- Мобильное гамбургер-меню для адаптива
 
-### 3. **Hero Section**
-- Full-width background image
-- Centered headline and CTA button
-- Smooth scroll interaction
+### 3. **Героическая секция**
+- Полноширинное фоновое изображение
+- Центрированный заголовок и CTA кнопка
+- Плавная прокрутка при взаимодействии
 
-### 4. **Features Bar**
-Horizontal scrolling features:
-- Free Shipping
-- Awarded Product Design
-- Ecofriendly Approach
-- Crafted in Spain
-- 4.8 Star Reviews
+### 4. **Панель особенностей**
+Горизонтально прокручиваемые преимущества:
+- Бесплатная доставка
+- Награждённый дизайн продуктов
+- Экологичный подход
+- Произведено в Испании
+- Оценка 4.8 звезд
 
-### 5. **Categories Grid**
-Four-column grid (responsive):
-- Living Room
-- Home Office
-- Dining Room
-- Bedroom
+### 5. **Сетка категорий**
+Четырехколоночная сетка (адаптивная):
+- Гостиная
+- Домашний офис
+- Столовая
+- Спальня
 
-### 6. **Product Showcases**
-Alternating layout showcases for:
-- **Cloe** - Modular Storage System
-- **Pelican** - Shelves with hidden hooks
-- **Alada** - Floating folding desk (New Favorite badge)
-- **Alba Collection** - Modular bedside table & shelf
-- **Batea Collection** - Tables with storage & tray tables
+### 6. **Витрина товаров**
+Чередующиеся макеты для:
+- **Cloe** - Модульная система хранения
+- **Pelican** - Полки со скрытыми крючками
+- **Alada** - Плавающий складной стол (бейдж "Новый фаворит")
+- **Alba Collection** - Модульная прикроватная тумба и полка
+- **Batea Collection** - Столы с хранением и съёмными подносами
 
-### 7. **Instagram Gallery**
-Three-column grid with user-generated content and Instagram handles overlay
+### 7. **Instagram галерея**
+Трёхколоночная сетка с пользовательским контентом и overlay с Instagram хендлами
 
-### 8. **Testimonials Carousel**
-Auto-rotating customer reviews with dot navigation
+### 8. **Карусель отзывов**
+Автоматически вращающиеся отзывы клиентов с точечной навигацией
 
-### 9. **Values Section**
-Four-column grid highlighting brand values:
-- Design
-- Footprint
-- Made
-- Wood
+### 9. **Секция ценностей**
+Четырехколоночная сетка с ценностями бренда:
+- Дизайн
+- След (экология)
+- Производство
+- Дерево
 
-### 10. **Press Logos**
-Featured publications and media coverage
+### 10. **Логотипы прессы**
+Представленные публикации и медиа-покрытие
 
-### 11. **Footer**
-- Four-column layout: About, Help, More, Newsletter
-- Social media icons (Facebook, Instagram, WhatsApp)
-- Payment methods display
-- Copyright and legal links
+### 11. **Подвал**
+- Четырехколоночный макет: О нас, Помощь, Ещё, Рассылка
+- Иконки соцсетей (Facebook, Instagram, WhatsApp)
+- Отображение способов оплаты
+- Копирайт и юридические ссылки
 
-### 12. **Scroll-to-Top Button**
-Fixed position button that appears on scroll
+### 12. **Кнопка "Наверх"**
+Кнопка фиксированной позиции, появляющаяся при прокрутке
 
 ---
 
-## 💻 Technologies Used
+## 💻 Используемые технологии
 
 ### HTML5
-- Semantic markup
-- ARIA attributes for accessibility
-- Optimized meta tags
+- Семантическая разметка
+- ARIA атрибуты для доступности
+- Оптимизированные мета-теги
 
 ### CSS3
-- **Grid Layout** for complex layouts
-- **Flexbox** for alignment and distribution
+- **Grid Layout** для сложных раскладок
+- **Flexbox** для выравнивания и распределения
 - **CSS Transitions & Animations**
-- **Media Queries** for responsive design
-- **Custom Properties** (CSS variables)
-- **Advanced selectors** and pseudo-elements
+- **Media Queries** для адаптивного дизайна
+- **Custom Properties** (CSS переменные)
+- **Продвинутые селекторы** и псевдоэлементы
 
 ### JavaScript (ES6+)
-- **DOM Manipulation**
+- **DOM манипуляции**
 - **Event Listeners** (scroll, click, hover)
-- **Intersection Observer API** for lazy loading
-- **Smooth scroll** behavior
-- **Carousel functionality**
-- **Form validation**
-- **Mobile menu toggle**
-- **Performance optimizations** (debouncing, passive listeners)
+- **Intersection Observer API** для ленивой загрузки
+- **Плавная прокрутка**
+- **Функциональность карусели**
+- **Валидация форм**
+- **Переключение мобильного меню**
+- **Оптимизации производительности** (debouncing, passive listeners)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Начало работы
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- No build tools or dependencies required
+### Требования
+- Современный веб-браузер (Chrome, Firefox, Safari, Edge)
+- Не требуется сборщиков или зависимостей
 
-### Installation
+### Установка
 
-1. **Clone the repository**
+1. **Клонируйте репозиторий**
 ```bash
 git clone https://github.com/peklos/WoodenDot.git
 ```
 
-2. **Navigate to project directory**
+2. **Перейдите в директорию проекта**
 ```bash
 cd WoodenDot
 ```
 
-3. **Open in browser**
+3. **Откройте в браузере**
 ```bash
-# Simply open index.html in your browser
-# Or use a local server (recommended):
+# Просто откройте index.html в браузере
+# Или используйте локальный сервер (рекомендуется):
 
 # Python 3
 python -m http.server 8000
@@ -198,90 +198,90 @@ python -m http.server 8000
 # Node.js (http-server)
 npx http-server
 
-# VS Code Live Server extension
-# Right-click index.html → "Open with Live Server"
+# VS Code Live Server расширение
+# Правый клик на index.html → "Open with Live Server"
 ```
 
-4. **View in browser**
+4. **Просмотр в браузере**
 ```
 http://localhost:8000
 ```
 
 ---
 
-## 📱 Responsive Design
+## 📱 Адаптивный дизайн
 
-The layout adapts seamlessly across all devices:
+Макет плавно адаптируется под все устройства:
 
-### Desktop (1024px+)
-- Full navigation menu
-- Multi-column grid layouts
-- Hover effects and animations
-- Large product images
+### Десктоп (1024px+)
+- Полное меню навигации
+- Многоколоночные сеточные раскладки
+- Hover-эффекты и анимации
+- Большие изображения товаров
 
-### Tablet (768px - 1024px)
-- Two-column category grid
-- Stacked product showcases
-- Optimized spacing and typography
+### Планшет (768px - 1024px)
+- Двухколоночная сетка категорий
+- Стопочные витрины товаров
+- Оптимизированные отступы и типографика
 
-### Mobile (< 768px)
-- Hamburger menu navigation
-- Single-column layouts
-- Touch-optimized interactions
-- Compressed images for performance
+### Мобильный (< 768px)
+- Гамбургер-меню навигация
+- Одноколоночные раскладки
+- Touch-оптимизированные взаимодействия
+- Сжатые изображения для производительности
 
 ---
 
-## 🎯 Key JavaScript Features
+## 🎯 Ключевые JavaScript функции
 
-### Smooth Scrolling
+### Плавная прокрутка
 ```javascript
-// Anchor links smooth scroll with header offset
+// Плавная прокрутка якорных ссылок с учётом высоты шапки
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        // ... smooth scroll implementation
+        // ... реализация плавной прокрутки
     });
 });
 ```
 
 ### Intersection Observer
 ```javascript
-// Lazy loading and scroll animations
+// Ленивая загрузка и анимации при скролле
 const imageObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            // Load image or trigger animation
+            // Загрузка изображения или запуск анимации
         }
     });
 });
 ```
 
-### Testimonials Carousel
+### Карусель отзывов
 ```javascript
-// Auto-rotating carousel with manual controls
+// Автоматически вращающаяся карусель с ручным управлением
 setInterval(() => {
     currentTestimonial = (currentTestimonial + 1) % dots.length;
     showTestimonial(currentTestimonial);
 }, 5000);
 ```
 
-### Scroll Effects
-- Header shadow on scroll
-- Hide/show navigation on scroll direction
-- Scroll-to-top button visibility
-- Parallax-like effects
+### Эффекты при скролле
+- Тень шапки при прокрутке
+- Скрытие/показ навигации по направлению скролла
+- Видимость кнопки "наверх"
+- Параллакс-подобные эффекты
 
 ---
 
-## 🎨 CSS Architecture
+## 🎨 CSS архитектура
 
-### Reset & Base Styles
-- Normalize CSS for cross-browser consistency
+### Reset и базовые стили
+- Normalize CSS для кроссбраузерной совместимости
 - Box-sizing border-box
-- Smooth scroll behavior
+- Плавное поведение прокрутки
 
-### Component-Based Organization
-Each section has dedicated styles:
+### Компонентная организация
+Каждая секция имеет выделенные стили:
 - `.announcement-bar`
 - `.header` / `.nav-container`
 - `.hero`
@@ -293,53 +293,53 @@ Each section has dedicated styles:
 - `.values-section`
 - `.footer`
 
-### Responsive Utilities
+### Адаптивные утилиты
 ```css
-/* Mobile-first approach */
-@media screen and (max-width: 767px) { /* Mobile */ }
-@media screen and (max-width: 1024px) { /* Tablet */ }
-@media screen and (min-width: 1441px) { /* Large Desktop */ }
+/* Mobile-first подход */
+@media screen and (max-width: 767px) { /* Мобильный */ }
+@media screen and (max-width: 1024px) { /* Планшет */ }
+@media screen and (min-width: 1441px) { /* Большой десктоп */ }
 ```
 
 ---
 
-## 🌟 Performance Optimizations
+## 🌟 Оптимизации производительности
 
-1. **WebP Images** - Modern image format for smaller file sizes
-2. **Lazy Loading** - Images load on scroll using Intersection Observer
-3. **Debounced Scroll Events** - Reduced scroll listener overhead
-4. **Passive Event Listeners** - Improved scroll performance
-5. **CSS Transitions** - Hardware-accelerated animations
-6. **Minification Ready** - Clean, production-ready code
-7. **No Framework Overhead** - Lightweight vanilla implementation
-
----
-
-## 🎨 Design Highlights
-
-### Color Palette
-- **Primary Black:** `#000000`
-- **Primary White:** `#ffffff`
-- **Background Gray:** `#f7f7f7`
-- **Text Gray:** `#54595f`
-- **Accent Red:** `#bc1414`
-
-### Typography
-- **Headings:** Roboto (Bold 700)
-- **Body:** Cardo (Regular 400, Italic)
-- **Accents:** Montserrat (Regular 400)
-
-### Spacing System
-- Consistent padding and margins
-- Golden ratio-inspired spacing
-- Responsive scaling
+1. **WebP изображения** - Современный формат для меньшего размера файлов
+2. **Ленивая загрузка** - Изображения загружаются при прокрутке через Intersection Observer
+3. **Debounced Scroll Events** - Уменьшенная нагрузка scroll listener'ов
+4. **Passive Event Listeners** - Улучшенная производительность прокрутки
+5. **CSS Transitions** - Аппаратно-ускоренные анимации
+6. **Готовность к минификации** - Чистый, готовый к продакшену код
+7. **Без overhead фреймворков** - Лёгкая vanilla реализация
 
 ---
 
-## 🔧 Customization
+## 🎨 Дизайн-особенности
 
-### Changing Colors
-Edit CSS custom properties in `styles.css`:
+### Цветовая палитра
+- **Основной чёрный:** `#000000`
+- **Основной белый:** `#ffffff`
+- **Фоновый серый:** `#f7f7f7`
+- **Текстовый серый:** `#54595f`
+- **Акцентный красный:** `#bc1414`
+
+### Типографика
+- **Заголовки:** Roboto (Bold 700)
+- **Основной текст:** Cardo (Regular 400, Italic)
+- **Акценты:** Montserrat (Regular 400)
+
+### Система отступов
+- Последовательные padding и margins
+- Отступы, вдохновлённые золотым сечением
+- Адаптивное масштабирование
+
+---
+
+## 🔧 Кастомизация
+
+### Изменение цветов
+Редактируйте CSS переменные в `styles.css`:
 ```css
 :root {
     --primary-color: #000;
@@ -348,86 +348,86 @@ Edit CSS custom properties in `styles.css`:
 }
 ```
 
-### Adding New Sections
-Follow the existing HTML structure pattern:
+### Добавление новых секций
+Следуйте существующему паттерну HTML структуры:
 ```html
 <section class="your-section">
     <div class="container">
-        <!-- Your content -->
+        <!-- Ваш контент -->
     </div>
 </section>
 ```
 
-### Modifying Breakpoints
-Adjust media queries in `styles.css`:
+### Изменение брейкпоинтов
+Настройте медиа-запросы в `styles.css`:
 ```css
-@media screen and (max-width: YOUR_BREAKPOINT) {
-    /* Responsive styles */
+@media screen and (max-width: ВАШ_БРЕЙКПОИНТ) {
+    /* Адаптивные стили */
 }
 ```
 
 ---
 
-## 📞 Contact
+## 📞 Контакты
 
 **Telegram:** [@swslt1616](https://t.me/swslt1616)
 
-For inquiries about:
-- Custom web development
-- Figma to HTML/CSS conversion
-- Responsive design projects
-- Frontend consulting
+По вопросам:
+- Кастомной веб-разработки
+- Конвертации Figma в HTML/CSS
+- Проектов адаптивного дизайна
+- Frontend консалтинга
 
 ---
 
-## 📄 License
+## 📄 Лицензия
 
-This project is a commercial work created as a custom order. All rights reserved.
-
----
-
-## 🙏 Acknowledgments
-
-- **Design:** Provided via Figma
-- **Images:** Unsplash contributors (replaced from Pexels)
-- **Fonts:** Google Fonts (Cardo, Roboto, Montserrat)
-- **Icons:** Custom SVG implementations
+Этот проект является коммерческой работой, созданной на заказ. Все права защищены.
 
 ---
 
-## 🚀 Future Enhancements
+## 🙏 Благодарности
 
-Potential improvements for future versions:
-- [ ] Add shopping cart functionality
-- [ ] Integrate real product database
-- [ ] Implement search functionality
-- [ ] Add product filtering
-- [ ] Connect newsletter to email service
-- [ ] Add blog section
-- [ ] Implement multi-language support
-- [ ] Add customer reviews system
-- [ ] Create admin panel
-- [ ] Integrate payment gateway
+- **Дизайн:** Предоставлен через Figma
+- **Изображения:** Контрибьюторы Unsplash (заменены с Pexels)
+- **Шрифты:** Google Fonts (Cardo, Roboto, Montserrat)
+- **Иконки:** Кастомные SVG реализации
 
 ---
 
-## 📊 Browser Support
+## 🚀 Будущие улучшения
 
-- ✅ Chrome/Edge (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Opera (latest)
+Потенциальные улучшения для будущих версий:
+- [ ] Добавить функциональность корзины покупок
+- [ ] Интегрировать реальную базу данных товаров
+- [ ] Реализовать функциональность поиска
+- [ ] Добавить фильтрацию товаров
+- [ ] Подключить рассылку к email-сервису
+- [ ] Добавить секцию блога
+- [ ] Реализовать мультиязычную поддержку
+- [ ] Добавить систему отзывов клиентов
+- [ ] Создать админ-панель
+- [ ] Интегрировать платёжный шлюз
+
+---
+
+## 📊 Поддержка браузеров
+
+- ✅ Chrome/Edge (последние версии)
+- ✅ Firefox (последняя версия)
+- ✅ Safari (последняя версия)
+- ✅ Opera (последняя версия)
 - ✅ iOS Safari (12+)
-- ✅ Chrome Android (latest)
+- ✅ Chrome Android (последняя версия)
 
 ---
 
-## 🐛 Known Issues
+## 🐛 Известные проблемы
 
-No known issues at this time. Please report bugs via Telegram contact.
+На данный момент известных проблем нет. Пожалуйста, сообщайте об ошибках через контакт в Telegram.
 
 ---
 
-**Built with ❤️ and attention to detail**
+**Создано с ❤️ и вниманием к деталям**
 
-*Furniture designed to live in harmony, creating distinctive and timeless spaces.*
+*Мебель, созданная для жизни в гармонии, создающая отличительные и вневременные пространства.*
