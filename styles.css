@@ -154,7 +154,7 @@ button {
 .hero {
     position: relative;
     height: 698px;
-    background: url('https://www.figma.com/api/mcp/asset/fce465ca-0128-43b6-96c4-a70343fb3414') center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -934,20 +934,16 @@ button {
     flex-wrap: wrap;
 }
 
-.footer-payment img {
+.footer-payment img,
+.footer-payment svg {
     height: 28px;
+    width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-.footer-payment img:hover {
-    transform: translateY(-3px);
-}
-
-.footer-payment svg {
-    transition: transform 0.3s ease;
-}
-
+.footer-payment img:hover,
 .footer-payment svg:hover {
     transform: translateY(-3px);
 }
